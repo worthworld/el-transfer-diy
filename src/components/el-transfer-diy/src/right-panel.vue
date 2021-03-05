@@ -223,7 +223,7 @@ export default {
     disabledProp() {
       return this.props.disabled || "disabled";
     },
-    childrenProp(){
+    childrenProp() {
       return this.props.children || "children";
     },
     hasFooter() {
@@ -324,24 +324,13 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-::v-deep {
-  .el-transfer-panel__body {
-    overflow-y: auto;
-    height: 350px;
-  }
-  .el-collapse-item__header {
-    justify-content: space-around;
-  }
-  .el-transfer-panel__list {
-    width: 55%;
-    margin: auto;
-  }
-  .el-collapse {
-    height: 100%;
-  }
-
-  .el-collapse-item__arrow {
-    margin: 0;
-  }
+.el-transfer-panel__body {
+  overflow-y: auto;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+.el-transfer-panel__list {
+  overflow-y: hidden;
+  height: auto;
 }
 </style>

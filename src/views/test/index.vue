@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="page">
     <el-transfer-diy
       v-model="value"
       :titles="titles"
@@ -21,22 +21,23 @@ export default {
     return {
       titles: ["列表1", "列表2"],
       list: [
-        { key: 11, label: "选项一", disabled: false },
-        { key: 22, label: "选项二", disabled: false },
-        { key: 33, label: "选项三", disabled: false },
+        { key: 1, label: "选项一", disabled: false },
+        { key: 2, label: "选项二", disabled: false },
+        { key: 3, label: "选项三", disabled: false },
         { key: 4, label: "选项四", disabled: false },
         { key: 5, label: "选项五", disabled: false },
-        { key: 66, label: "选项六", disabled: false },
-        { key: 72, label: "选项七", disabled: false },
+        { key: 6, label: "选项六", disabled: false },
+        { key: 7, label: "选项七", disabled: false },
         { key: 8, label: "选项八", disabled: false },
-        { key: 92, label: "选项九", disabled: false },
-        { key: 110, label: "选项十", disabled: false },
-        { key: 111, label: "选项十一", disabled: false },
-        { key: 122, label: "选项十二", disabled: false }
+        { key: 9, label: "选项九", disabled: false },
+        { key: 10, label: "选项十", disabled: false },
+        { key: 11, label: "选项十一", disabled: false },
+        { key: 12, label: "选项十二", disabled: false }
       ],
       value: [
         { label: "突击组", children: [1] },
-        { label: "掩护组", children: [2, 3] }
+        { label: "掩护组", children: [2, 3] },
+        { label: "狙击组", children: [4, 5] }
       ],
       defaultProps: {
         key: "key",
@@ -51,21 +52,15 @@ export default {
 </script>
 
 <style lang="scss">
-.box {
-  width: 100%;
-  height: 100vh;
-  > img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
+.page {
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(31, 29, 29);
   .transfer {
-    width: 80%;
-    height: 50%;
-    margin: 50px;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    padding-top: 50px;
   }
 }
 </style>

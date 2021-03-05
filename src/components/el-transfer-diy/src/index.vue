@@ -288,37 +288,37 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-::v-deep {
-  .el-transfer-panel {
-    height: 100%;
-    width: 40%;
-  }
-  .el-transfer-panel__body {
-    height: 100%;
-  }
-  .el-transfer-panel__list {
-    height: 85%;
-  }
-  .el-button + .el-button {
-    margin-left: 0;
-  }
-}
-.el-transfer {
-  height: 100%;
-}
-.el-transfer__buttons {
-  height: 40%;
-  padding: 0 15px;
-}
-.el-transfer__buttons_wrap {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.el-transfer__button {
-  border-radius: 50%;
-  width: 46px;
-  height: 46px;
-}
+// ::v-deep {
+//   .el-transfer-panel {
+//     height: 100%;
+//     width: 40%;
+//   }
+//   .el-transfer-panel__body {
+//     height: 100%;
+//   }
+//   .el-transfer-panel__list {
+//     height: 85%;
+//   }
+//   .el-button + .el-button {
+//     margin-left: 0;
+//   }
+// }
+// .el-transfer {
+//   height: 100%;
+// }
+// .el-transfer__buttons {
+//   height: 40%;
+//   padding: 0 15px;
+// }
+// .el-transfer__buttons_wrap {
+//   display: flex;
+//   height: 100%;
+//   flex-direction: column;
+//   justify-content: space-around;
+// }
+// .el-transfer__button {
+//   border-radius: 50%;
+//   width: 46px;
+//   height: 46px;
+// }
 </style>
