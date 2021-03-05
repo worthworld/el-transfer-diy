@@ -21,18 +21,18 @@ export default {
     return {
       titles: ["列表1", "列表2"],
       list: [
-        { key: 1, label: "选项一", disabled: false },
-        { key: 2, label: "选项二", disabled: false },
-        { key: 3, label: "选项三", disabled: false },
-        { key: 4, label: "选项四", disabled: false },
-        { key: 5, label: "选项五", disabled: false },
-        { key: 6, label: "选项六", disabled: false },
-        { key: 7, label: "选项七", disabled: false },
-        { key: 8, label: "选项八", disabled: false },
-        { key: 9, label: "选项九", disabled: false },
-        { key: 10, label: "选项十", disabled: false },
-        { key: 11, label: "选项十一", disabled: false },
-        { key: 12, label: "选项十二", disabled: false }
+        { key: 1, label: "士兵A", disabled: false },
+        { key: 2, label: "士兵B", disabled: false },
+        { key: 3, label: "士兵C", disabled: false },
+        { key: 4, label: "士兵D", disabled: false },
+        { key: 5, label: "士兵E", disabled: false },
+        { key: 6, label: "士兵F", disabled: false },
+        { key: 7, label: "士兵G", disabled: false },
+        { key: 8, label: "士兵H", disabled: false },
+        { key: 9, label: "士兵I", disabled: false },
+        { key: 10, label: "士兵J", disabled: false },
+        { key: 11, label: "士兵K", disabled: false },
+        { key: 12, label: "士兵L", disabled: false }
       ],
       value: [
         { label: "突击组", children: [1] },
